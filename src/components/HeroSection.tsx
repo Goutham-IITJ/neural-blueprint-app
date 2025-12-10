@@ -9,7 +9,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 py-20 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center px-6 py-20 overflow-hidden">
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left Content */}
