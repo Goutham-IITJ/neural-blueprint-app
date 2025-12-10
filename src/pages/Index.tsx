@@ -1,6 +1,7 @@
 import NeuralBackground from "@/components/NeuralBackground";
 import HeroSection from "@/components/HeroSection";
 import FoundationSection from "@/components/FoundationSection";
+import ProjectsSection from "@/components/ProjectsSection";
 import EngineSection from "@/components/EngineSection";
 import DestinationSection from "@/components/DestinationSection";
 import Footer from "@/components/Footer";
@@ -15,6 +16,7 @@ const Index = () => {
       <main className="relative z-10">
         <HeroSection />
         <FoundationSection />
+        <ProjectsSection />
         <EngineSection />
         <DestinationSection />
         <Footer />
